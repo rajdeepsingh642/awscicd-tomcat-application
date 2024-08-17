@@ -4,7 +4,7 @@ phases:
   install:
     commands:
      - echo installing maven...
-     - yum install -y maven 
+     - apt-get install -y maven 
   build:
     commands:
       - echo Build started on `date`
