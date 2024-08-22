@@ -8,7 +8,7 @@ phases:
   build:
     commands:
       - echo Build completed on `date`
-      - mvn clean test package
+      - mvn clean package
 
 artifacts:
   files:
